@@ -1,0 +1,235 @@
+parse_config:
+  zmk_keycode_map:
+    TAB: '$$mdi:keyboard-tab$$'
+    ESC: '$$mdi:keyboard-esc$$'
+    BSPC: '$$mdi:backspace$$'
+    SPACE: '$$mdi:keyboard-space$$'
+    RET: '$$mdi:keyboard-return$$'
+    LSHFT: '$$mdi:apple-keyboard-shift$$'
+    RSHFT: '$$mdi:apple-keyboard-shift$$'
+    LGUI: '$$mdi:penguin$$'
+
+    LALT: 'ALT'
+    RALT: 'ALT'
+    LCTRL: 'CTRL'
+    RCTRL: 'CTRL'
+
+    LEFT: '$$mdi:arrow-left-bold$$'
+    RIGHT: '$$mdi:arrow-right-bold$$'
+    UP: '$$mdi:arrow-up-bold$$'
+    DOWN: '$$mdi:arrow-down-bold$$'
+
+    F1: '$$mdi:keyboard-f1$$'
+    F2: '$$mdi:keyboard-f2$$'
+    F3: '$$mdi:keyboard-f3$$'
+    F4: '$$mdi:keyboard-f4$$'
+    F5: '$$mdi:keyboard-f5$$'
+    F6: '$$mdi:keyboard-f6$$'
+    F7: '$$mdi:keyboard-f7$$'
+    F8: '$$mdi:keyboard-f8$$'
+    F9: '$$mdi:keyboard-f9$$'
+    F10: '$$mdi:keyboard-f10$$'
+    F11: '$$mdi:keyboard-f11$$'
+    F12: '$$mdi:keyboard-f12$$'
+
+    # Media keys.
+    C_BRI_DN: '$$mdi:brightness-5$$'
+    C_BRI_UP: '$$mdi:brightness-7$$'
+    C_PREV: '$$mdi:skip-previous$$'
+    C_NEXT: '$$mdi:skip-next$$'
+    C_PP: '$$mdi:play-pause$$'
+    C_MUTE: '$$mdi:volume-mute$$'
+    C_VOL_DN: '$$mdi:volume-minus$$'
+    C_VOL_UP: '$$mdi:volume-plus$$'
+    'LC(D)': '$$mdi:microphone-off$$'
+
+    # Keypad.
+    KP_EQUAL: '='
+    KP_SLASH: '/'
+    KP_MULTIPLY: '*'
+    KP_MINUS: '-'
+    KP_PLUS: '+'
+    KP_ENTER: '$$mdi:keyboard-return$$'
+    KP_DOT: '.'
+
+    KP_N0: '0'
+    KP_N1: '1'
+    KP_N2: '2'
+    KP_N3: '3'
+    KP_N4: '4'
+    KP_N5: '5'
+    KP_N6: '6'
+    KP_N7: '7'
+    KP_N8: '8'
+    KP_N9: '9'
+
+    # Default values.
+    EXCLAMATION: '!'
+    EXCL: '!'
+    AT_SIGN: '@'
+    AT: '@'
+    HASH: '#'
+    POUND: '#'
+    DOLLAR: $
+    DLLR: $
+    PERCENT: '%'
+    PRCNT: '%'
+    CARET: ^
+    AMPERSAND: '&'
+    AMPS: '&'
+    ASTERISK: '*'
+    ASTRK: '*'
+    STAR: '*'
+    LEFT_PARENTHESIS: (
+    LPAR: (
+    RIGHT_PARENTHESIS: )
+    RPAR: )
+    EQUAL: '='
+    PLUS: +
+    MINUS: '-'
+    UNDERSCORE: _
+    UNDER: _
+    SLASH: /
+    FSLH: /
+    QUESTION: '?'
+    QMARK: '?'
+    BACKSLASH: \
+    BSLH: \
+    PIPE: '|'
+    NON_US_BACKSLASH: \
+    PIPE2: '|'
+    NON_US_BSLH: '|'
+    SEMICOLON: ;
+    SEMI: ;
+    COLON: ':'
+    SINGLE_QUOTE: ''''
+    SQT: ''''
+    APOSTROPHE: ''''
+    APOS: ''''
+    DOUBLE_QUOTES: '"'
+    DQT: '"'
+    COMMA: ','
+    LESS_THAN: <
+    LT: <
+    PERIOD: .
+    DOT: .
+    GREATER_THAN: '>'
+    GT: '>'
+    LEFT_BRACKET: '['
+    LBKT: '['
+    LEFT_BRACE: '{'
+    LBRC: '{'
+    RIGHT_BRACKET: ']'
+    RBKT: ']'
+    RIGHT_BRACE: '}'
+    RBRC: '}'
+    GRAVE: '`'
+    TILDE: '~'
+    NON_US_HASH: '#'
+    NUHS: '#'
+    TILDE2: '~'
+
+  raw_binding_map:
+    # System
+    '&bootloader': 'BOOT'
+    '&sys_reset': 'RESET'
+    '&rgb_ug_status_macro': '$$mdi:magic-staff$$'
+
+    # Bluetooth
+    '&bt_0':
+      tap: '$$mdi:bluetooth$$'
+      hold: '0'
+      type: 'two_symbols'
+    '&bt_1':
+      tap: '$$mdi:bluetooth$$'
+      hold: '1'
+      type: 'two_symbols'
+    '&bt_2':
+      tap: '$$mdi:bluetooth$$'
+      hold: '2'
+      type: 'two_symbols'
+    '&bt_3':
+      tap: '$$mdi:bluetooth$$'
+      hold: '3'
+      type: 'two_symbols'
+    '&bt BT_CLR':
+      tap: '$$mdi:bluetooth$$'
+      hold: 'Clear'
+      type: 'two_symbols'
+    '&bt BT_CLR_ALL':
+      tap: '$$mdi:bluetooth$$'
+      hold: 'Clear All'
+      type: 'two_symbols'
+
+    # RGB
+    '&rgb_ug RGB_SPI':
+      tap: '$$mdi:led-outline$$'
+      hold: 'Speed+'
+      type: 'two_symbols'
+    '&rgb_ug RGB_SPD':
+      tap: '$$mdi:led-outline$$'
+      hold: 'Speed-'
+      type: 'two_symbols'
+
+    '&rgb_ug RGB_SAI':
+      tap: '$$mdi:led-outline$$'
+      hold: 'Sat+'
+      type: 'two_symbols'
+    '&rgb_ug RGB_SAD':
+      tap: '$$mdi:led-outline$$'
+      hold: 'Sat-'
+      type: 'two_symbols'
+
+    '&rgb_ug RGB_HUI':
+      tap: '$$mdi:led-outline$$'
+      hold: 'Hue+'
+      type: 'two_symbols'
+    '&rgb_ug RGB_HUD':
+      tap: '$$mdi:led-outline$$'
+      hold: 'Hue-'
+      type: 'two_symbols'
+
+    '&rgb_ug RGB_BRI':
+      tap: '$$mdi:led-outline$$'
+      hold: 'Bright+'
+      type: 'two_symbols'
+    '&rgb_ug RGB_BRD':
+      tap: '$$mdi:led-outline$$'
+      hold: 'Bright-'
+      type: 'two_symbols'
+
+    '&rgb_ug RGB_TOG':
+      tap: '$$mdi:led-outline$$'
+      hold: 'Toggle'
+      type: 'two_symbols'
+    '&rgb_ug RGB_EFF':
+      tap: '$$mdi:led-outline$$'
+      hold: 'Effect'
+      type: 'two_symbols'
+
+    # Caps word.
+    '&caps_word': '$$mdi:apple-keyboard-caps$$'
+
+    # Output
+    '&out OUT_USB': '$$mdi:usb$$'
+
+draw_config:
+  glyph_tap_size: 26
+  glyph_hold_size: 12
+  glyph_shifted_size: 10
+
+  svg_extra_style: |
+    /* Inspired by https://github.com/SethMilliken/zmk-config/blob/main/keymap_drawer.config.yaml */
+    .tap {
+      font-size: 16px;
+    }
+
+    .two_symbols.tap {
+      //scale: 150%;
+      translate: 0px -10px;
+    }
+
+    .two_symbols.hold {
+      translate: 0px -8px;
+      font-size: 13px;
+    }

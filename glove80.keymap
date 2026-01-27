@@ -360,8 +360,8 @@ combos {
             &kp GRAVE    &kp N1  &kp N2    &kp N3     &kp N4  &kp N5                                                                                           &kp N6    &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
               &kp TAB     &kp Q   &kp W     &kp F      &kp P   &kp B                                                                                            &kp J     &kp L      &kp U     &kp Y  &kp SEMI  &kp EQUAL
               &kp ESC     &kp A   &kp R     &kp S      &kp T   &kp G                                                                                            &kp M     &kp N      &kp E     &kp I     &kp O    &kp SQT
-             &kp BSLH     &kp Z   &kp X     &kp C      &kp D   &kp V  &sk LSHFT              &kp LCTRL   &kp LALT  &kp RALT              &kp RCTRL  &sk RSHFT   &kp K     &kp H  &kp COMMA   &kp DOT  &kp FSLH  &kp PG_UP
- &magic LAYER_Magic 0  &kp LEFT  &kp UP  &kp DOWN  &kp RIGHT           &kp LGUI  &lt LAYER_Lower SPACE  &kp PSCRN   &kp DEL  &lt LAYER_Symbol BSPC    &kp RET          &kp HOME    &kp END  &kp LBKT  &kp RBKT  &kp PG_DN
+             &kp BSLH     &kp Z   &kp X     &kp C      &kp D   &kp V  &sk LSHFT             &kp LCTRL  &kp LALT   &kp RALT               &kp RCTRL  &sk RSHFT   &kp K     &kp H  &kp COMMA   &kp DOT  &kp FSLH  &kp PG_UP
+ &magic LAYER_Magic 0  &kp LEFT  &kp UP  &kp DOWN  &kp RIGHT           &kp LGUI  &lt LAYER_Lower BSPC   &kp DEL  &kp PSCRN  &lt LAYER_Symbol SPACE    &kp RET          &kp HOME    &kp END  &kp LBKT  &kp RBKT  &kp PG_DN
             >;
         };
 

@@ -64,7 +64,7 @@
 #define LAYER_Base 0
 #define LAYER_Lower 1
 #define LAYER_Symbol 2
-#define LAYER_Navigation 3
+#define LAYER_Nav 3
 #define LAYER_Magic 4
 
 /* To deal with the situation where there is no Lower layer, to keep &lower happy */
@@ -379,12 +379,12 @@ combos {
 
         layer_Base {
             bindings = <
-               &kp F1    &kp F2  &kp F3    &kp F4     &kp F5                                                                                                                            &kp F6     &kp F7    &kp F8    &kp F9    &kp F10
-            &kp GRAVE    &kp N1  &kp N2    &kp N3     &kp N4  &kp N5                                                                                                          &kp N6    &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
-              &kp TAB     &kp Q   &kp W     &kp F      &kp P   &kp B                                                                                                           &kp J     &kp L      &kp U     &kp Y  &kp SEMI  &kp EQUAL
-              &kp ESC     &kp A   &kp R     &kp S      &kp T   &kp G                                                                                                           &kp M     &kp N      &kp E     &kp I     &kp O    &kp SQT
-             &kp BSLH     &kp Z   &kp X     &kp C      &kp D   &kp V  &sk LSHFT             &kp LCTRL  &kp LALT   &kp RALT               &kp RCTRL                 &sk RSHFT   &kp K     &kp H  &kp COMMA   &kp DOT  &kp FSLH  &kp PG_UP
- &magic LAYER_Magic 0  &kp LEFT  &kp UP  &kp DOWN  &kp RIGHT           &kp LGUI  &lt LAYER_Lower BSPC   &kp DEL  &kp PSCRN  &lt LAYER_Symbol SPACE  &lt LAYER_Navigation RET          &kp HOME    &kp END  &kp LBKT  &kp RBKT  &kp PG_DN
+               &kp F1    &kp F2  &kp F3    &kp F4     &kp F5                                                                                                                     &kp F6     &kp F7    &kp F8    &kp F9    &kp F10
+            &kp GRAVE    &kp N1  &kp N2    &kp N3     &kp N4  &kp N5                                                                                                   &kp N6    &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
+              &kp TAB     &kp Q   &kp W     &kp F      &kp P   &kp B                                                                                                    &kp J     &kp L      &kp U     &kp Y  &kp SEMI  &kp EQUAL
+              &kp ESC     &kp A   &kp R     &kp S      &kp T   &kp G                                                                                                    &kp M     &kp N      &kp E     &kp I     &kp O    &kp SQT
+             &kp BSLH     &kp Z   &kp X     &kp C      &kp D   &kp V  &sk LSHFT             &kp LCTRL  &kp LALT   &kp RALT               &kp RCTRL          &sk RSHFT   &kp K     &kp H  &kp COMMA   &kp DOT  &kp FSLH  &kp PG_UP
+ &magic LAYER_Magic 0  &kp LEFT  &kp UP  &kp DOWN  &kp RIGHT           &kp LGUI  &lt LAYER_Lower BSPC   &kp DEL  &kp PSCRN  &lt LAYER_Symbol SPACE  &lt LAYER_Nav RET          &kp HOME    &kp END  &kp LBKT  &kp RBKT  &kp PG_DN
             >;
         };
 
@@ -410,13 +410,13 @@ combos {
             >;
         };
 
-        layer_Navigation {
+        layer_Nav {
             bindings = <
   &none   &none   &none   &none   &none                                                                        &none      &none      &none   &none   &none
   &none   &none   &none   &none   &none   &none                                                     &none      &none      &none      &none   &none   &none
-  &none   &none   &none   &none   &none   &none                                                     &none      &none      &none      &none   &none   &none
+  &none   &none   &none   &none   &none   &none                                                  &kp HOME  &kp PG_DN  &kp PG_UP    &kp END   &none   &none
   &none   &none   &none   &none   &none   &none                                                  &kp LEFT   &kp DOWN     &kp UP  &kp RIGHT   &none   &none
-  &none   &none   &none   &none   &none   &none  &trans  &trans  &trans   &none   &none   &none  &kp HOME  &kp PG_DN  &kp PG_UP    &kp END   &none   &none
+  &none   &none   &none   &none   &none   &none  &trans  &trans  &trans   &none   &none   &none     &none      &none      &none      &none   &none   &none
   &none   &none   &none   &none   &none          &trans  &trans  &trans   &none   &none   &none                &none      &none      &none   &none   &none
             >;
         };

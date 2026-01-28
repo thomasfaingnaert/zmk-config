@@ -334,6 +334,28 @@ combos {
 / {
     macros {
 
+        triple_backtick: triple_backtick {
+            label = "&TRIPLE_BACKTICK";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            tap-ms = <0>;
+            wait-ms = <0>;
+            bindings = <&macro_tap>
+                , <&kp GRAVE>
+                , <&kp GRAVE>
+                , <&kp GRAVE>;
+        };
+
+        double_dot: double_dot {
+            label = "&DOUBLE_DOT";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            tap-ms = <0>;
+            wait-ms = <0>;
+            bindings = <&macro_tap>
+                , <&kp DOT>
+                , <&kp DOT>;
+        };
     };
 };
 
@@ -378,12 +400,12 @@ combos {
 
         layer_Symbol {
             bindings = <
-         &none          &none         &none                 &none          &none                                                                                       &none   &none   &none   &none   &none
-         &none      &kp GRAVE    &kp LS(N9)            &kp LS(N0)       &kp SEMI     &kp COMMA                                                                 &none   &none   &none   &none   &none   &none
-    &kp LS(N1)   &kp LS(LBKT)       &kp SQT  &kp LS(SINGLE_QUOTE)   &kp LS(RBKT)  &kp LS(FSLH)                                                                 &none   &none   &none   &none   &none   &none
-    &kp LS(N3)     &kp LS(N6)     &kp EQUAL         &kp LS(MINUS)     &kp LS(N4)    &kp LS(N8)                                                                 &none   &none   &none   &none   &none   &none
- &kp LS(GRAVE)  &kp LS(COMMA)  &kp LS(BSLH)             &kp MINUS    &kp LS(DOT)      &kp FSLH    &kp BSLH       &kp DOT  &kp LS(N8)   &none   &none   &none   &none   &none   &none   &none   &none   &none
-    &kp LS(N2)     &kp LS(N7)      &kp LBKT              &kp RBKT  &kp LS(EQUAL)                &kp LS(N5)  &kp LS(SEMI)    &kp SEMI   &none   &none   &none           &none   &none   &none   &none   &none
+            &none          &none         &none          &none          &none                                                                                       &none   &none   &none   &none   &none
+ &triple_backtick      &kp GRAVE    &kp LS(N9)     &kp LS(N0)       &kp SEMI     &kp COMMA                                                                 &none   &none   &none   &none   &none   &none
+       &kp LS(N1)       &kp LBKT  &kp LS(LBKT)   &kp LS(RBKT)       &kp RBKT  &kp LS(FSLH)                                                                 &none   &none   &none   &none   &none   &none
+       &kp LS(N3)     &kp LS(N6)     &kp EQUAL  &kp LS(MINUS)     &kp LS(N4)    &kp LS(N8)                                                                 &none   &none   &none   &none   &none   &none
+    &kp LS(GRAVE)  &kp LS(COMMA)  &kp LS(BSLH)      &kp MINUS    &kp LS(DOT)      &kp FSLH    &kp BSLH       &kp DOT  &kp LS(N8)   &none   &none   &none   &none   &none   &none   &none   &none   &none
+      &double_dot     &kp LS(N7)       &kp SQT    &kp LS(SQT)  &kp LS(EQUAL)                &kp LS(N5)  &kp LS(SEMI)  &kp LS(N2)   &none   &none   &none           &none   &none   &none   &none   &none
             >;
         };
 

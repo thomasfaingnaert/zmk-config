@@ -236,7 +236,11 @@ parse_config:
     '&kp LS(DOT)': '>'
     '&kp LS(FSLH)': '?'
     '&kp LS(SEMI)': ':'
-    '&kp LS(SINGLE_QUOTE)': '"'
+    '&kp LS(SQT)': '"'
+
+    # Macros
+    '&double_dot': '..'
+    '&triple_backtick': '```'
 
 draw_config:
   glyph_tap_size: 26

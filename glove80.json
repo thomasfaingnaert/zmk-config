@@ -2,10 +2,10 @@
   "keyboard": "glove80",
   "firmware_api_version": "1",
   "locale": "en-US",
-  "uuid": "b124b3b7-f431-42b6-8bc2-86426b75569e",
-  "parent_uuid": "23ff348b-0b63-4f1d-99c9-76e2ad89c6ea",
+  "uuid": "a2d7e544-7c35-43cd-993d-ac26c008cf54",
+  "parent_uuid": "b124b3b7-f431-42b6-8bc2-86426b75569e",
   "unlisted": false,
-  "date": 1769606631,
+  "date": 1769608249,
   "creator": "thomasfaingnaert",
   "title": "Colemak-DH Custom",
   "notes": "",
@@ -1514,15 +1514,12 @@
         "value": "&kp",
         "params": [
           {
-            "value": "BSLH"
-          }
-        ]
-      },
-      {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "DOT"
+            "value": "LS",
+            "params": [
+              {
+                "value": "N5"
+              }
+            ]
           }
         ]
       },
@@ -1533,7 +1530,20 @@
             "value": "LS",
             "params": [
               {
-                "value": "N8"
+                "value": "SEMI"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "LS",
+            "params": [
+              {
+                "value": "N2"
               }
             ]
           }
@@ -1620,12 +1630,15 @@
         "value": "&kp",
         "params": [
           {
-            "value": "LS",
-            "params": [
-              {
-                "value": "N5"
-              }
-            ]
+            "value": "BSLH"
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "DOT"
           }
         ]
       },
@@ -1636,20 +1649,7 @@
             "value": "LS",
             "params": [
               {
-                "value": "SEMI"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "LS",
-            "params": [
-              {
-                "value": "N2"
+                "value": "N8"
               }
             ]
           }

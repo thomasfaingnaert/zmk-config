@@ -2,10 +2,10 @@
   "keyboard": "glove80",
   "firmware_api_version": "1",
   "locale": "en-US",
-  "uuid": "f244cd86-897c-417d-a23d-927c09e09314",
-  "parent_uuid": "a2d7e544-7c35-43cd-993d-ac26c008cf54",
+  "uuid": "5b8b8787-26ac-437b-bc9c-63d67736df6f",
+  "parent_uuid": "f244cd86-897c-417d-a23d-927c09e09314",
   "unlisted": false,
-  "date": 1769784063,
+  "date": 1769784421,
   "creator": "thomasfaingnaert",
   "title": "Colemak-DH Custom",
   "notes": "",
@@ -1586,13 +1586,13 @@
         ]
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
         "value": "&none"
@@ -1692,13 +1692,13 @@
         ]
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
         "value": "&none"

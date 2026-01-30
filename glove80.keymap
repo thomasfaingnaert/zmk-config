@@ -301,30 +301,7 @@
 
 /* Custom Defined Behaviors */
 / {
-combos {
-    compatible = "zmk,combos";
 
-    combo_f11 {
-        timeout-ms = <50>;
-        key-positions = <POS_RH_C5R1 POS_RH_C5R2>;
-        bindings = <&kp F11>;
-        layers = <0>;
-    };
-    
-    combo_f12 {
-        timeout-ms = <50>;
-        key-positions = <POS_RH_C6R1 POS_RH_C6R2>;
-        bindings = <&kp F12>;
-        layers = <0>;
-    };
-    
-    combo_capsword {
-        timeout-ms = <50>;
-        key-positions = <POS_LH_T1 POS_RH_T1>;
-        bindings = <&caps_word>;
-        layers = <0>;
-    };
-};
 };
 
 /* Generated input processors */
@@ -368,7 +345,43 @@ combos {
 };
 
 /* Automatically generated combos definitions */
+/ {
+    combos {
+        compatible = "zmk,combos";
 
+        // F11
+        combo_combo_f11 {
+            timeout-ms = <50>;
+            key-positions = <POS_RH_C5R1 POS_RH_C5R2>;
+            bindings = <&kp F11>;
+            layers = <LAYER_Base>;
+        };
+
+        // F12
+        combo_combo_f12 {
+            timeout-ms = <50>;
+            key-positions = <POS_RH_C6R1 POS_RH_C6R2>;
+            bindings = <&kp F12>;
+            layers = <LAYER_Base>;
+        };
+
+        // Capsword
+        combo_combo_capsword {
+            timeout-ms = <50>;
+            key-positions = <POS_LH_T1 POS_RH_T1>;
+            bindings = <&caps_word>;
+            layers = <LAYER_Base>;
+        };
+
+        // Kill word backward
+        combo_combo_killwordbackward {
+            timeout-ms = <50>;
+            key-positions = <POS_LH_T5 POS_LH_T6>;
+            bindings = <&kp LC(BSPC)>;
+            layers = <LAYER_Base>;
+        };
+    };
+};
 
 /* Automatically generated keymap */
 / {

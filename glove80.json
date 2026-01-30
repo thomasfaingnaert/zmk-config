@@ -2,10 +2,10 @@
   "keyboard": "glove80",
   "firmware_api_version": "1",
   "locale": "en-US",
-  "uuid": "026c3afe-bbfc-487d-87e6-0de1d711a6ca",
-  "parent_uuid": "5b8b8787-26ac-437b-bc9c-63d67736df6f",
+  "uuid": "6590f752-20bf-4105-98db-edae3e505631",
+  "parent_uuid": "026c3afe-bbfc-487d-87e6-0de1d711a6ca",
   "unlisted": false,
-  "date": 1769784689,
+  "date": 1769785254,
   "creator": "thomasfaingnaert",
   "title": "Colemak-DH Custom",
   "notes": "",
@@ -13,7 +13,7 @@
     "colemak",
     "colemak-dh"
   ],
-  "custom_defined_behaviors": "combos {\n    compatible = \"zmk,combos\";\n\n    combo_f11 {\n        timeout-ms = <50>;\n        key-positions = <POS_RH_C5R1 POS_RH_C5R2>;\n        bindings = <&kp F11>;\n        layers = <0>;\n    };\n    \n    combo_f12 {\n        timeout-ms = <50>;\n        key-positions = <POS_RH_C6R1 POS_RH_C6R2>;\n        bindings = <&kp F12>;\n        layers = <0>;\n    };\n    \n    combo_capsword {\n        timeout-ms = <50>;\n        key-positions = <POS_LH_T1 POS_RH_T1>;\n        bindings = <&caps_word>;\n        layers = <0>;\n    };\n};",
+  "custom_defined_behaviors": "",
   "custom_devicetree": "",
   "config_parameters": [],
   "layout_parameters": {},
@@ -2097,5 +2097,86 @@
   ],
   "inputListeners": [],
   "holdTaps": [],
-  "combos": []
+  "combos": [
+    {
+      "name": "combo_f11",
+      "description": "F11",
+      "binding": {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F11"
+          }
+        ]
+      },
+      "keyPositions": [
+        8,
+        20
+      ],
+      "timeoutMs": 50,
+      "layers": [
+        0
+      ]
+    },
+    {
+      "name": "combo_f12",
+      "description": "F12",
+      "binding": {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F12"
+          }
+        ]
+      },
+      "keyPositions": [
+        9,
+        21
+      ],
+      "timeoutMs": 50,
+      "layers": [
+        0
+      ]
+    },
+    {
+      "name": "combo_capsword",
+      "description": "Capsword",
+      "binding": {
+        "value": "&caps_word"
+      },
+      "keyPositions": [
+        52,
+        57
+      ],
+      "timeoutMs": 50,
+      "layers": [
+        0
+      ]
+    },
+    {
+      "name": "combo_killwordbackward",
+      "description": "Kill word backward",
+      "binding": {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "LC",
+            "params": [
+              {
+                "value": "BSPC"
+              }
+            ]
+          }
+        ]
+      },
+      "keyPositions": [
+        70,
+        71
+      ],
+      "timeoutMs": 50,
+      "layers": [
+        0
+      ]
+    }
+  ]
 }

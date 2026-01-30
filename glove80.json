@@ -3,7 +3,7 @@
   "firmware_api_version": "1",
   "locale": "en-US",
   "uuid": "",
-  "parent_uuid": "6590f752-20bf-4105-98db-edae3e505631",
+  "parent_uuid": "ac0ad09b-ec8e-4009-ae52-31a7d522fbcd",
   "unlisted": false,
   "date": 1769785254,
   "creator": "thomasfaingnaert",
@@ -19,6 +19,7 @@
   "layout_parameters": {},
   "layer_names": [
     "Base",
+    "LayerToggle",
     "Lower",
     "Symbol",
     "Magic"
@@ -576,8 +577,7 @@
         "value": "&lt",
         "params": [
           {
-            "value": 1,
-            "params": []
+            "value": 2
           },
           {
             "value": "BSPC"
@@ -620,8 +620,7 @@
         "value": "&lt",
         "params": [
           {
-            "value": 2,
-            "params": []
+            "value": 3
           },
           {
             "value": "SPACE"
@@ -667,6 +666,258 @@
             "value": "PG_DN"
           }
         ]
+      }
+    ],
+    [
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&tog",
+        "params": [
+          {
+            "value": 2
+          }
+        ]
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&tog",
+        "params": [
+          {
+            "value": 3
+          }
+        ]
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
+      },
+      {
+        "value": "&none"
       }
     ],
     [
@@ -1108,7 +1359,12 @@
         ]
       },
       {
-        "value": "&trans"
+        "value": "&tog",
+        "params": [
+          {
+            "value": 2
+          }
+        ]
       },
       {
         "value": "&trans"
@@ -1705,7 +1961,12 @@
         "value": "&trans"
       },
       {
-        "value": "&trans"
+        "value": "&tog",
+        "params": [
+          {
+            "value": 3
+          }
+        ]
       },
       {
         "value": "&none"
@@ -2174,6 +2435,26 @@
       "keyPositions": [
         69,
         52
+      ],
+      "timeoutMs": 50,
+      "layers": [
+        0
+      ]
+    },
+    {
+      "name": "combo_toggle_layer",
+      "description": "Toggle layer",
+      "binding": {
+        "value": "&to",
+        "params": [
+          {
+            "value": 1
+          }
+        ]
+      },
+      "keyPositions": [
+        71,
+        72
       ],
       "timeoutMs": 50,
       "layers": [

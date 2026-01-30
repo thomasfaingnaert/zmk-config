@@ -242,6 +242,9 @@ parse_config:
     '&double_dot': '..'
     '&triple_backtick': '```'
 
+    # Layer toggle (for locking)
+    '&to LAYER_LayerToggle': 'LT'
+
 draw_config:
   glyph_tap_size: 26
   glyph_hold_size: 12

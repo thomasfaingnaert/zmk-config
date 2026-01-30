@@ -382,11 +382,12 @@
             layers = <LAYER_Base>;
         };
 
-        // Toggle layer
+        // One shot toggle layer
         combo_combo_toggle_layer {
             timeout-ms = <50>;
             key-positions = <POS_LH_T6 POS_RH_T6>;
-            bindings = <&to LAYER_LayerToggle>;
+            bindings = <&sl LAYER_LayerToggle>;
+            layers = <LAYER_Base>;
         };
     };
 };

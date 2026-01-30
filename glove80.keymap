@@ -376,7 +376,7 @@
         // Kill word backward
         combo_combo_killwordbackward {
             timeout-ms = <50>;
-            key-positions = <POS_LH_T5 POS_LH_T6>;
+            key-positions = <POS_LH_T4 POS_LH_T1>;
             bindings = <&kp LC(BSPC)>;
             layers = <LAYER_Base>;
         };

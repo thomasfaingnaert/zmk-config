@@ -602,8 +602,8 @@ path.combo {
 <use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="491" y="299" height="26" width="26.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="375" y="390" width="28" height="26" class="combo"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="376" y="390" height="26" width="26.0" class="combo tap glyph mdi:backspace"/>
+<rect rx="6" ry="6" x="329" y="316" width="28" height="26" class="combo"/>
+<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="330" y="316" height="26" width="26.0" class="combo tap glyph mdi:backspace"/>
 </g>
 </g>
 </g>

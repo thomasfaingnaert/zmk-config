@@ -2,8 +2,8 @@
   "keyboard": "glove80",
   "firmware_api_version": "1",
   "locale": "en-US",
-  "uuid": "6590f752-20bf-4105-98db-edae3e505631",
-  "parent_uuid": "026c3afe-bbfc-487d-87e6-0de1d711a6ca",
+  "uuid": "",
+  "parent_uuid": "6590f752-20bf-4105-98db-edae3e505631",
   "unlisted": false,
   "date": 1769785254,
   "creator": "thomasfaingnaert",
@@ -573,21 +573,22 @@
         ]
       },
       {
-        "value": "&kp",
+        "value": "&lt",
         "params": [
           {
-            "value": "LGUI"
+            "value": 1,
+            "params": []
+          },
+          {
+            "value": "BSPC"
           }
         ]
       },
       {
-        "value": "&lt",
+        "value": "&kp",
         "params": [
           {
-            "value": 1
-          },
-          {
-            "value": "BSPC"
+            "value": "LGUI"
           }
         ]
       },
@@ -608,21 +609,22 @@
         ]
       },
       {
-        "value": "&lt",
-        "params": [
-          {
-            "value": 2
-          },
-          {
-            "value": "SPACE"
-          }
-        ]
-      },
-      {
         "value": "&kp",
         "params": [
           {
             "value": "RET"
+          }
+        ]
+      },
+      {
+        "value": "&lt",
+        "params": [
+          {
+            "value": 2,
+            "params": []
+          },
+          {
+            "value": "SPACE"
           }
         ]
       },

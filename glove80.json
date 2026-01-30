@@ -3,7 +3,7 @@
   "firmware_api_version": "1",
   "locale": "en-US",
   "uuid": "",
-  "parent_uuid": "749ea758-128e-402b-b2e4-4b54f58f3af9",
+  "parent_uuid": "bd2775ad-48c0-4ea7-bbe6-584ac7b27b7c",
   "unlisted": false,
   "date": 1769791898,
   "creator": "thomasfaingnaert",
@@ -772,17 +772,7 @@
         "value": "&none"
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "LS",
-            "params": [
-              {
-                "value": "N9"
-              }
-            ]
-          }
-        ]
+        "value": "&none"
       },
       {
         "value": "&kp",
@@ -841,12 +831,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "LS",
-            "params": [
-              {
-                "value": "N0"
-              }
-            ]
+            "value": "K"
           }
         ]
       },
@@ -910,7 +895,7 @@
             "value": "LS",
             "params": [
               {
-                "value": "N5"
+                "value": "G"
               }
             ]
           }
@@ -991,7 +976,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "COMMA"
+            "value": "J"
           }
         ]
       },

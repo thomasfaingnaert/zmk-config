@@ -3,9 +3,9 @@
   "firmware_api_version": "1",
   "locale": "en-US",
   "uuid": "",
-  "parent_uuid": "fe1ea060-7f9d-41bb-bddf-ee90e99b5703",
+  "parent_uuid": "8cf99c7f-8954-4979-8470-af100201eeee",
   "unlisted": false,
-  "date": 1769791898,
+  "date": 1769802357,
   "creator": "thomasfaingnaert",
   "title": "Colemak-DH Custom",
   "notes": "",
@@ -594,16 +594,22 @@
         ]
       },
       {
-        "value": "&kp",
+        "value": "&lt",
         "params": [
+          {
+            "value": 5
+          },
           {
             "value": "DEL"
           }
         ]
       },
       {
-        "value": "&kp",
+        "value": "&lt",
         "params": [
+          {
+            "value": 5
+          },
           {
             "value": "PSCRN"
           }
@@ -2611,26 +2617,6 @@
       "keyPositions": [
         69,
         52
-      ],
-      "timeoutMs": 50,
-      "layers": [
-        0
-      ]
-    },
-    {
-      "name": "combo_toggle_layer",
-      "description": "One shot toggle layer",
-      "binding": {
-        "value": "&sl",
-        "params": [
-          {
-            "value": 5
-          }
-        ]
-      },
-      "keyPositions": [
-        71,
-        72
       ],
       "timeoutMs": 50,
       "layers": [

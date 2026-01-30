@@ -382,14 +382,6 @@
             bindings = <&kp LC(BSPC)>;
             layers = <LAYER_Base>;
         };
-
-        // One shot toggle layer
-        combo_combo_toggle_layer {
-            timeout-ms = <50>;
-            key-positions = <POS_LH_T6 POS_RH_T6>;
-            bindings = <&sl LAYER_LayerToggle>;
-            layers = <LAYER_Base>;
-        };
     };
 };
 
@@ -401,12 +393,12 @@
 
         layer_Base {
             bindings = <
-               &kp F1    &kp F2  &kp F3    &kp F4     &kp F5                                                                                                                      &kp F6     &kp F7    &kp F8    &kp F9    &kp F10
-            &kp GRAVE    &kp N1  &kp N2    &kp N3     &kp N4  &kp N5                                                                                                    &kp N6    &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
-              &kp TAB     &kp Q   &kp W     &kp F      &kp P   &kp B                                                                                                     &kp J     &kp L      &kp U     &kp Y  &kp SEMI  &kp EQUAL
-              &kp ESC     &kp A   &kp R     &kp S      &kp T   &kp G                                                                                                     &kp M     &kp N      &kp E     &kp I     &kp O    &kp SQT
-             &kp BSLH     &kp Z   &kp X     &kp C      &kp D   &kp V              &sk LSHFT  &kp LCTRL  &kp LALT   &kp RALT          &kp RCTRL               &sk RSHFT   &kp K     &kp H  &kp COMMA   &kp DOT  &kp FSLH  &kp PG_UP
- &magic LAYER_Magic 0  &kp LEFT  &kp UP  &kp DOWN  &kp RIGHT          &lt LAYER_Number BSPC   &kp LGUI   &kp DEL  &kp PSCRN  &lt LAYER_Nav RET  &lt LAYER_Symbol SPACE          &kp HOME    &kp END  &kp LBKT  &kp RBKT  &kp PG_DN
+               &kp F1    &kp F2  &kp F3    &kp F4     &kp F5                                                                                                                                                         &kp F6     &kp F7    &kp F8    &kp F9    &kp F10
+            &kp GRAVE    &kp N1  &kp N2    &kp N3     &kp N4  &kp N5                                                                                                                                       &kp N6    &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
+              &kp TAB     &kp Q   &kp W     &kp F      &kp P   &kp B                                                                                                                                        &kp J     &kp L      &kp U     &kp Y  &kp SEMI  &kp EQUAL
+              &kp ESC     &kp A   &kp R     &kp S      &kp T   &kp G                                                                                                                                        &kp M     &kp N      &kp E     &kp I     &kp O    &kp SQT
+             &kp BSLH     &kp Z   &kp X     &kp C      &kp D   &kp V              &sk LSHFT  &kp LCTRL                   &kp LALT                     &kp RALT          &kp RCTRL               &sk RSHFT   &kp K     &kp H  &kp COMMA   &kp DOT  &kp FSLH  &kp PG_UP
+ &magic LAYER_Magic 0  &kp LEFT  &kp UP  &kp DOWN  &kp RIGHT          &lt LAYER_Number BSPC   &kp LGUI  &lt LAYER_LayerToggle DEL  &lt LAYER_LayerToggle PSCRN  &lt LAYER_Nav RET  &lt LAYER_Symbol SPACE          &kp HOME    &kp END  &kp LBKT  &kp RBKT  &kp PG_DN
             >;
         };
 
